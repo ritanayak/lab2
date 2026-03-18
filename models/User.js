@@ -18,7 +18,8 @@ const userSchema = new Schema({
     type: String,
     minlength: 5,
     required: true
-  }
+  },
+  
 });
 
 // hash user password
